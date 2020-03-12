@@ -15,5 +15,12 @@
     "plugin:@typescript-eslint/recommended",
     "airbnb-base"
   ],
-  "rules": {}
+  "rules": {
+    "import/no-unresolved": 1,
+    "class-methods-use-this": 1,
+    "import/prefer-default-export": 1,
+    "import/no-extraneous-dependencies": 1,
+    "no-useless-constructor": 1,
+    "no-empty-function": 1
+  }
 }
